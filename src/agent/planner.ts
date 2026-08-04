@@ -1,7 +1,7 @@
 import type { Issue, Plan } from '../types'
 
 // A deterministic, rule-based planner. No LLM call, so the agent runs anywhere.
-const RISKY_KEYWORDS = ['delete', 'force push', 'production', 'secret', 'drop table', 'rm -rf']
+const RISKY_KEYWORDS = ['delete', 'force push', 'production', 'secret', 'drop table', 'rm -rf','migrate']
 
 export function createPlan(issue: Issue): Plan {
   const text = `${issue.title} ${issue.body}`.toLowerCase()

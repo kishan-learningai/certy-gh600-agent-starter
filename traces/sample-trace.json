@@ -1,6 +1,6 @@
 {
   "result": {
-    "summary": "Suggested fix for #1: review \"Fix crash on login\", add a regression test, and open a pull request describing the change.",
+    "summary": "Suggested fix for #2: review \"Fix crash on login\", add a regression test, and open a pull request describing the change, migrate to main",
     "tool": "suggestFix",
     "approved": true
   },

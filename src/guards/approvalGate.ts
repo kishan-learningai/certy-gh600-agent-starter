@@ -9,5 +9,6 @@ export interface ApprovalDecision {
 export function approvalGate(plan: Plan, humanApproved: boolean): ApprovalDecision {
   if (!plan.risky) return { approved: true, reason: 'Low-risk plan, no approval needed' }
   if (humanApproved) return { approved: true, reason: 'Human approved a risky plan' }
+  if (plan.tool==="suggestFix") return { approved: false, reason: 'suggestFix requires explicit approval' }
   return { approved: false, reason: 'Risky plan requires human approval' }
 }
