@@ -1,0 +1,19 @@
+{
+  "result": {
+    "summary": "Suggested fix for #1: review \"Fix crash on login\", add a regression test, and open a pull request describing the change.",
+    "tool": "suggestFix",
+    "approved": true
+  },
+  "trace": [
+    { "step": "input_filter", "detail": "clean" },
+    { "step": "plan", "detail": "tool=suggestFix risky=false" },
+    { "step": "validate", "detail": "ok" },
+    { "step": "approval", "detail": "Low-risk plan, no approval needed" },
+    { "step": "execute", "detail": "produced 118 chars" }
+  ],
+  "state": {
+    "status": "done",
+    "task": "issue-1",
+    "history": ["idle", "planning", "awaiting_approval", "executing", "done"]
+  }
+}
