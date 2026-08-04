@@ -13,7 +13,7 @@
   ],
   "state": {
     "status": "done",
-    "task": "issue-1",
+    "task": "issue-3",
     "history": ["idle", "planning", "awaiting_approval", "executing", "done"]
   }
 }

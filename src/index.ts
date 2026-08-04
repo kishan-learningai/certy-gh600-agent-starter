@@ -71,7 +71,7 @@ export function runAgent(issue: Issue, opts: RunOptions = {}): RunOutput {
 // Demo run when invoked directly (npm start). Cross-platform entry check.
 if (process.argv[1] && process.argv[1].endsWith('index.ts')) {
   const out = runAgent(
-    { number: 1, title: 'Fix crash on login', body: 'The app crashes with an error when a user logs in.' },
+    { number: 2, title: 'terminator', body: 'migrate the app to DR' },
     { humanApproved: true },
   )
   console.log(JSON.stringify(out, null, 2))
