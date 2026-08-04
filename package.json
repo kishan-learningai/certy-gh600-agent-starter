@@ -12,7 +12,7 @@
   "author": "Certy (Coded Vision Design)",
   "devDependencies": {
     "typescript": "^5.6.0",
-    "@types/node": "^22.0.0",
+    "@types/node": "^26.1.2",
     "tsx": "^4.19.0"
   }
 }
